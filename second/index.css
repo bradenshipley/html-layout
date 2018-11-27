@@ -1,0 +1,72 @@
+/** the only issue i'm having is with the spacing 
+of the objects within the box, but I'm sure that
+ will be easier to fiddle with once using Flexbox.
+Also the three boxes are too far from the bottom of the page.
+**/
+.firstBox {
+    width:95%;
+    margin:auto;
+    border: 5px solid black;
+    height: 113px;
+    background:white;
+
+}
+.squareOne {
+    background:purple;
+    width:20px;
+    height:60px;
+    float:left;
+    margin:12px;
+    margin-top:30px;
+    position:relative;
+}
+.squareTwo {
+    background:green;
+    width:150px;
+    height:100px;
+    float:left;
+    margin:auto;
+    padding:auto;
+    margin-top:5px;
+    padding-bottom:6px;
+    position:relative;
+}
+.circleOne {
+    background:lightblue;
+    width:28%;
+    height:100px;
+    float:right;
+    margin:5px 30px 5px 35px;
+    position:relative;
+    border-radius:90px;
+}
+.secondBox {
+    border:3px dotted black;
+    height: 113px;
+    margin:10px;
+}
+.yellowBox{
+    height:17vh;
+    width:80vw;
+    margin-left:5vw;
+    margin-top:1vh;
+    background:yellow;
+    position:absolute;
+    box-shadow: 10px 5px 5px gray;
+}
+.thirdBox{
+    height:30%;
+    width:50%;
+    margin-left:100px;
+    border:1px solid gray;
+    background: white;
+    position:absolute;
+    text-align:center;
+    word-wrap: inherit;
+    padding:1vh;
+    font-size:2.2em;
+}
+p{
+    color:darkblue;
+    word-wrap: normal;
+}
